@@ -17,8 +17,20 @@ Sitemap plugin for Ghost platform
 
 注: 如果在core/server/下没有找到index.js请更新ghost代码
 
+Ghost代码升级步骤
 
-## Targets
+1. clone最新代码
+2. 复制 ./content/data/Ghost.data 过来
+3. 复制 ./config.js 过来
+4. 复制 ./content/images 过来
+5. 如果使用非默认主题, 需要复制主题过来
+       ./content/themes/
+6. 如果网站的ico修改,需要将ico复制过来
+        ./core/shared/
+
+
+
+## 目标
 
 * 使用Ghost的plugin机制进行开发
 * 简单,易用
