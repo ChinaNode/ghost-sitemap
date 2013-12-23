@@ -4,7 +4,7 @@ Sitemap plugin for Ghost platform
 
 ## 介绍
 使用sitemap module生成网站地图xml文件. 由于Ghost的App(plugin) API在0.5版本才会发布, 所以
-目前网站地图是对Ghost的hack, 使用方式不够优美
+目前本插件是通过对Ghost代码hack实现的, 使用方式不够优美
 
 ## 安装
 
