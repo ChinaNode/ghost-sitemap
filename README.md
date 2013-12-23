@@ -15,6 +15,9 @@ Sitemap plugin for Ghost platform
 5. 访问 http://host/sitemap.xml 查看是否ok
 
 
+注: 如果在core/server/下没有找到index.js请更新ghost代码
+
+
 ## Targets
 
 * 使用Ghost的plugin机制进行开发
