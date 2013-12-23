@@ -1,7 +1,18 @@
 Ghost-Sitemap
 =============
-
 Sitemap plugin for Ghost platform
+
+## 介绍
+使用sitemap module生成网站地图xml文件. 由于Ghost的App(plugin) API在0.5版本才会发布, 所以
+目前网站地图是对Ghost的hack, 使用方式不够优美
+
+## 安装
+
+1. 将sitemap.js复制到 Ghost/core/server/下
+2. 安装sitemap模块  npm install sitemap
+3. 修改文件 Ghost/core/server/index.js, 搜索 `routes.frontend(server);` 在后边添加 require('./sitemap')(server);
+4. 重启Ghost
+5. 访问 http://host/sitemap.xml 查看是否ok
 
 
 ## Targets
