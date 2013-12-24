@@ -21,12 +21,9 @@ Sitemap plugin for Ghost platform
 Ghost代码升级步骤
 
 1. clone最新代码
-2. 复制 ./content/data/Ghost.data 过来
+2. 复制 ./content/ 文件夹过来(数据, 主题, 图片)
 3. 复制 ./config.js 过来
-4. 复制 ./content/images 过来
-5. 如果使用非默认主题, 需要复制主题过来
-       ./content/themes/
-6. 如果网站的ico修改,需要将ico复制过来
+4. 如果网站的ico修改,需要将ico复制过来
         ./core/shared/
 
 
