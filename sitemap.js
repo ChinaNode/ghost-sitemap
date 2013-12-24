@@ -1,5 +1,7 @@
 var sm = require('sitemap')
     , Post = require('./models/post').Post
+    , config = require('../../config.js')
+    , host = config.production.url || config.development.url
     , when = require('when');
 
 /*
@@ -37,7 +39,7 @@ module.exports = function(server){
 */
 function createSitemap(urls, cbk){
     var sitemap = sm.createSitemap ({
-        hostname: 'http://blog.rednode.cn',
+        hostname: host,
         cacheTime: 600000,
         urls: urls
     });
